@@ -500,5 +500,8 @@ footer {
   .js{
     width: 100%;
   }
+  .feedback{
+    width: 360px;
+  }
 }
 /* end phone device and tablet device media queary */
