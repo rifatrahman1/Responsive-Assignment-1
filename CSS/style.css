@@ -425,7 +425,6 @@ body {
 
 /* footer seciton start */
 footer {
-    display: none;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.03);
 }
@@ -444,9 +443,7 @@ footer {
 /* footer seciton end */
 
 /* start phone device and tablet device media queary */
-.hide{
-    display: none;
-}
+
 @media screen and (max-width: 576px) {
   .container{
     margin: 0 auto;
@@ -502,6 +499,10 @@ footer {
   }
   .feedback{
     width: 360px;
+  }
+  .footer-details{
+    flex-direction: column;
+    text-align: center;
   }
 }
 /* end phone device and tablet device media queary */
